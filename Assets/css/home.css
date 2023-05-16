@@ -158,6 +158,82 @@
     text-align: center;
     color: white;
   }
+  .image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
   
+  .image {
+    width: 250px;
+    height: auto;
+    box-shadow: 1px 7px 14px -3px rgba(0,0,0,0.66);
+  }
   
+  .border-custom {
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 300px;
+   border: 10px solid #F47522;
+    
+  }
+  .border-middle {
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 300px;
+   border: 10px solid #19345E;
+    
+  }
   
+  .teksName{
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    left: 50%;
+  }
+
+  .teksName span{
+    color: #F47522;
+    
+  }
+  
+  #team{
+    background-image: url(../img/ornament_batik.png);
+    background-size: 200px;
+    background-position: start;
+    background-repeat: no-repeat;
+  }
+  
+  footer {
+    background-color: #19345E;
+    height: 100px;
+    margin-top: 50px;
+  }
+
+  footer .container{
+    /* background-color: #F47522; */
+    align-items: center;
+    
+  }
+
+  footer .img-fluid{
+    width: 150px;
+  }
+
+  footer .social img{
+    width: 20px;
+    margin: 8px;
+  }
