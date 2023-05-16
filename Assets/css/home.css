@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+
+}
+
+.nav-link {
+    color: #19345E !important;
+
+}
+
+.btnNav {
+    border-radius: 20px !important;
+    padding: 8px 30px;
+    color: #F47522 !important;
+    border-color: #F47522 !important;
+}
+
+
+.hero {
+
+    position: relative;
+    height: 100vh;
+    background-color: #EDF6FF;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: #19345E;
+}
+
+.imageHero img{
+    width: 358px;
+    margin-left: 50px !important;
+}
+.teksAltera {
+    margin-top: 40% !important;
+}
+
+.title span {
+
+    color: #F47522;
+}
+
+.btnHero{
+    color: white;
+    border-radius: 20px;
+    background-color: #F47522;
+    padding: 8px 30px;
+}
+
+.btnHero span{
+    content: url(../img/sport-team.png);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+   
+}
+
+.btnHero:hover{
+    color: #F47522;
+    background-color: #ffffff;
+}
+
+.btnHero span:hover{
+    content: url(../img/sport-team-hover.png);
+   
+}
