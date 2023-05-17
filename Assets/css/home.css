@@ -14,12 +14,20 @@
     color: #19345E !important;
 
 }
+.nav-link:hover {
+    color: #F47522 !important;
+
+}
 
 .btnNav {
     border-radius: 20px !important;
     padding: 8px 30px;
     color: #F47522 !important;
     border-color: #F47522 !important;
+}
+.btnNav:hover {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
 }
 
 
@@ -83,6 +91,13 @@
    height: 100px;
    box-shadow: 1px 7px 14px -3px rgba(0,0,0,0.66);
 
+}
+
+#feature li{
+  list-style-type: none;
+}
+#feature .teks-1{
+  font-weight: bold;
 }
 
 #feature .image{
@@ -223,11 +238,6 @@
     margin-top: 50px;
   }
 
-  footer .container{
-    /* background-color: #F47522; */
-    align-items: center;
-    
-  }
 
   footer .img-fluid{
     width: 150px;
