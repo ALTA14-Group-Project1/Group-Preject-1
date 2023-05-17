@@ -14,12 +14,20 @@
     color: #19345E !important;
 
 }
+.nav-link:hover {
+    color: #F47522 !important;
+
+}
 
 .btnNav {
     border-radius: 20px !important;
     padding: 8px 30px;
     color: #F47522 !important;
     border-color: #F47522 !important;
+}
+.btnNav:hover {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
 }
 
 
@@ -72,3 +80,170 @@
     content: url(../img/sport-team-hover.png);
    
 }
+
+#feature .container-fluid{
+    width: 60%;
+    height: 150px;
+   
+}
+#feature .row{
+   border-radius: 50px;
+   height: 100px;
+   box-shadow: 1px 7px 14px -3px rgba(0,0,0,0.66);
+
+}
+
+#feature li{
+  list-style-type: none;
+}
+#feature .teks-1{
+  font-weight: bold;
+}
+
+#feature .image{
+    background-color: #F47522;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#feature img{
+    width: 30px;
+
+}
+
+
+.teksAbout {
+    position: relative;
+    color: #19345E;
+    margin-top: 50px;
+  }
+  
+  .teksAbout:before,
+  .teksAbout:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50px; 
+    border-bottom: 1px solid #F47522; 
+    border-bottom-width: 2px;
+  }
+  
+  .teksAbout:before {
+    right: 100%;
+    margin-right: 10px; 
+  }
+  
+  .teksAbout:after {
+    left: 100%;
+    margin-left: 10px; 
+  }
+
+  
+  .image-overlay {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  .overlay-image {
+    width: 100%;
+    height: auto;
+  }
+  .overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #19345ef6; 
+    opacity: 0.5;
+  }
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 250px;
+    height: auto;
+    box-shadow: 1px 7px 14px -3px rgba(0,0,0,0.66);
+  }
+  
+  .border-custom {
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 300px;
+   border: 10px solid #F47522;
+    
+  }
+  .border-middle {
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 300px;
+   border: 10px solid #19345E;
+    
+  }
+  
+  .teksName{
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    left: 50%;
+  }
+
+  .teksName span{
+    color: #F47522;
+    
+  }
+  
+  #team{
+    background-image: url(../img/ornament_batik.png);
+    background-size: 200px;
+    background-position: start;
+    background-repeat: no-repeat;
+  }
+  
+  footer {
+    background-color: #19345E;
+    height: 100px;
+    margin-top: 50px;
+  }
+
+
+  footer .img-fluid{
+    width: 150px;
+  }
+
+  footer .social img{
+    width: 20px;
+    margin: 8px;
+  }
