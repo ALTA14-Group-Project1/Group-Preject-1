@@ -223,6 +223,7 @@
   position: relative;
   color: #19345E;
   margin-top: 50px;
+  font-weight: bold;
 }
 
 .teksAbout:before,
@@ -344,6 +345,30 @@
     background-size: 200px;
     background-position: start;
     background-repeat: no-repeat;
+    color: #19345E;
+  }
+
+  .linkCheck{
+    text-decoration: none;
+    color: #19345E;
+    font-weight: bold;
+  }
+  .linkCheck:hover{
+    color: #F47522;
+  }
+
+  .linkCheck svg{
+    font-weight: bold;
+    margin-left: 10px;
+  }
+.card{
+  color: #19345E !important;
+}
+  .readMore{
+    color: #19345E;
+  }
+  .readMore:hover{
+    color: #F47522;
   }
   footer {
     background-color: #19345E;
