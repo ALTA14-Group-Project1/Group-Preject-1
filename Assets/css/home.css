@@ -3,6 +3,10 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+body {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   background-color: white;
@@ -169,6 +173,16 @@
   }
 }
 
+.animated-element {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 1.5s ease;
+}
+
+.animated-element.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 #feature .container-fluid{
     width: 60%;
@@ -316,6 +330,7 @@
     width: 250px;
     height: 300px;
    border: 10px solid #F47522;
+   
     
   }
   .border-middle {
