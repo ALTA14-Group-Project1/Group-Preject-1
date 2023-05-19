@@ -128,7 +128,7 @@
       height: auto;
       padding: 50px 0;
       text-align: center;
-     height: 130vh;     
+     height: 100vh;     
   }
 
   .imageHero{
@@ -150,7 +150,7 @@
 @media (max-width: 767px) {
   .hero {
       padding: 30px 0;
-      height: 110vh; 
+      height: 100vh; 
 
   }
   .imageHero{
