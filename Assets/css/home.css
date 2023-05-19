@@ -370,36 +370,121 @@
   .readMore:hover{
     color: #F47522;
   }
+  /* css footer */
   footer {
-    background-color: #19345E;
-    padding: 20px 0;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .container {
+    background-color: #163050;
     width: 100%;
-    max-width: 1200px;
-}
-
-footer .img-fluid {
-    width: 150px;
-}
-
-footer .social img {
-    width: 20px;
-    margin: 8px;
-}
-
-@media (max-width: 767px) {
-    footer .col-md-4 {
-        text-align: center;
-        margin-top: 20px;
+    height: 150px;
+    margin-top: 50px;
+  }
+  
+  .container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 10px;
+  }
+  
+  .container-footer .alta img {
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 65px;
+  }
+  
+  .container-footer .medsos {
+    font-family: system-ui;
+    color: #ffffff;
+    padding-top: 5px;
+  }
+  
+  .container-footer .medsos img {
+    width: 40px;
+    padding: 8px 8px;
+  }
+  
+  .container-footer .copyright {
+    font-family: system-ui;
+    color: #ffffff;
+    padding-top: 45px;
+  }
+  
+  /* Tampilan responsif footer untuk tampilan browser */
+  @media (min-width: 992px) {
+    .container-footer {
+      gap: 50px;
+      padding: 10px;
     }
-
-    footer .col-md-4.social {
-        flex-direction: column;
+  
+    .container-footer .alta img {
+      margin-left: 60px;
+      margin-top: 30px;
+      height: 65px;
     }
-}
+  
+    .container-footer .medsos {
+      padding-top: 5px;
+    }
+  
+    .container-footer .medsos img {
+      width: 40px;
+      padding: 8px 8px;
+    }
+  }
+  /* Tampilan responsif footer untuk tampilan tablet */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .container-footer {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 5px;
+      padding: 3px;
+    }
+  
+    .container-footer .alta img {
+      margin-top: 30px;
+      height: 45px;
+      margin-left: 50px;
+    }
+  
+    .container-footer .medsos img {
+      width: 25px;
+      padding: 5px 5px;
+      font-size: 10px;
+    }
+  
+    .container-footer .copyright {
+      font-family: system-ui;
+      color: #ffffff;
+      padding-top: 45px;
+      font-size: 15px;
+    }
+  }
+  
+  /* Tampilan responsif footer untuk tampilan handphone */
+  @media (max-width: 767px) {
+    .container-footer {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 5px;
+      padding: 3px;
+    }
+  
+    .container-footer .alta img {
+      margin-top: 30px;
+      height: 40px;
+      margin-left: 10px;
+    }
+  
+    .container-footer .medsos img {
+      width: 25px;
+      padding: 5px 5px;
+      font-size: 10px;
+    }
+  
+    .container-footer .copyright {
+      font-family: system-ui;
+      color: #ffffff;
+      padding-top: 45px;
+      font-size: 10px;
+    }
+  }
+  
